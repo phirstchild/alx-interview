@@ -19,7 +19,7 @@ def pascal_triangle(n):
         >>> pascal_triangle(5)
         [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
     """
-	 if n <= 0:
+    if n <= 0:
         return []
 
     triangle = [[1]]
@@ -34,9 +34,9 @@ def pascal_triangle(n):
         row.append(1)
         triangle.append(row)
 
-    return triangle
+   return triangle
 
 
 if __name__ == "__main__":
     # Run the test cases using pytest
-    pytest.main([__file__])
+    pytest.main([__file__])	
